@@ -27,7 +27,7 @@ class CoinRepositoryImpl(
         }
     }
 
-    override fun getCoinInfo(fromSymbol: String): LiveData<CoinInfo> {
+    override fun getOneCoinInfo(fromSymbol: String): LiveData<CoinInfo> {
         return Transformations.map(coinInfoDao.getPriceInfoAboutCoin(fromSymbol)) {
             mapper.mapDbModelToEntity(it)
         }
