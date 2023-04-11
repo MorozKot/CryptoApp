@@ -8,7 +8,8 @@
 :small_blue_diamond: Retrofit
 :small_blue_diamond: Coroutines
 :small_blue_diamond: Room
-:small_blue_diamond: Picasso  
+:small_blue_diamond: Picasso
+:small_blue_diamond: WorkManager
 <br />  
 ## Приложение получает данные от api https://min-api.cryptocompare.com/ 
 ## Данные обновляются в режиме реального времени, с возможностью просмотра детальной информации о каждой валюте
